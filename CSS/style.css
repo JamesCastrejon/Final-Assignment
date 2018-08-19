@@ -3,9 +3,11 @@ body {
     margin: 0; 
     padding: 0; 
     border: 0; 
-    background-color: white;
     font-family: arial,verdana,sans-serif;
     font-size:12px;
+    background-image: url("../images/MarioBackground.png");
+    background-position: right top;
+    background-color: white;
 }
 
 /* HEADER */
@@ -48,6 +50,7 @@ a:hover {
     margin-right: auto;
     width: 600px;
     height: 400px;
+    text-align: center;
     /*whatever width you want*/
 }
 
