@@ -1,0 +1,64 @@
+/* DEFAULT*/
+body { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    background-color: white;
+    font-family: arial,verdana,sans-serif;
+    font-size:12px;
+}
+
+/* HEADER */
+#logo {
+    display: inline;
+}
+
+#nav {
+    background:rgb(255, 60, 60);
+    color: white;
+    padding:5px;
+    font-size:17px;
+ }
+
+ /* LINK */
+ a {
+    color: inherit; /* blue colors for links too */
+    margin: 1px;
+    padding: 5px;
+    text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+    color: blue;
+}
+
+/* BODY */
+.outer {
+    position: absolute;
+    height: 90%;
+    width: 100%;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+    /*whatever width you want*/
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background:rgb(255, 60, 60);
+    color: white;
+    text-align: center;
+}
