@@ -66,7 +66,7 @@ form.example button {
 
 form.example button:hover {
     background: white;
-    color: rgb(255, 60, 60);
+    color: black;
 }
 
 form.example::after {
