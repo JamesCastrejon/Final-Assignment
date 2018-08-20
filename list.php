@@ -1,4 +1,4 @@
-<?php $location = "Home"; ?>
+<?php $location = "List of Items"; ?>
 <body><!DOCTYPE html>
 <html>
     <head>
@@ -23,10 +23,7 @@
             <div class="outer">
                 <div class="middle">
                     <div class="inner">
-                        <h2>Welcome to the Item Shop</h2>
-                        <p class="inner-text">
-                            Navigate through the website by clicking a link on the nav bar.
-                        </p>
+                        <h2>Insert List Here...</h2>
                         <!-- TODO: sjngksngisngskfk -->
                     </div>
                 </div>

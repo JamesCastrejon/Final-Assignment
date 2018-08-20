@@ -31,7 +31,48 @@ body {
 }
 
 a:hover {
-    color: blue;
+    color: black;
+}
+
+#nav input[type=text] {
+    float: right;
+    margin-top: 8px;
+    margin-right: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+form {
+    display: inline;
+}
+
+form.example button {
+    float: right;
+    width: 5%;
+    height: 4.4%;
+    margin: 7px 1px 0px 0px;
+    padding: 5px;
+    text-align: center;
+    background: rgb(179, 179,179);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: white;
+    color: rgb(255, 60, 60);
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* BODY */
@@ -48,10 +89,18 @@ a:hover {
 .inner {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
     width: 600px;
     height: 400px;
     text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid rgb(179, 179,179);
     /*whatever width you want*/
+}
+
+.inner-text {
+    font-size: 15px;
 }
 
 /* FOOTER */
@@ -64,4 +113,12 @@ a:hover {
     background:rgb(255, 60, 60);
     color: white;
     text-align: center;
+}
+
+/* ABOUT */
+.about-facts {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+    padding: 1%;
 }
