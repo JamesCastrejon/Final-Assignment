@@ -28,7 +28,7 @@
                         <h2>List of Items</h2>
                         <table>
                           <tr>
-                            <th>Id</th>
+                            <!-- <th>Id</th> -->
                             <th>Name</th>
                             <th>Price</th>
                             <th>Category</th>
@@ -36,11 +36,11 @@
                           </tr>
                           @foreach($people as $person)
                           <tr>
-                            <td>{{$person['id']}}</td>
+                            <!-- <td>{{$person['id']}}</td> -->
                             <td>{{$person['name']}}</td>
                             <td>{{$person['age']}}</td>
                             <td>{{$person['type']}}</td>
-                            <td>{{$person['email']}}</td>
+                            <td><img class="index-image" src="{{$person['email']}}" /></td>
 
                             <td><a href="{{action('PersonController@edit', $person['id'])}}">Edit</a></td>
                             <td>
