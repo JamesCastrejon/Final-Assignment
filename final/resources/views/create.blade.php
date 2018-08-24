@@ -22,32 +22,35 @@
                 <div class="middle">
                     <div class="inner">
                         <h2>Suggesst an Item</h2>
-                        <form action="{{url('people')}}" method="post" enctype="multipart/form-data">
-                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                            <div class="form-group">
-                            <label for="name">Name: </label>
-                            <input type="text" name="name" />
-                            </div>
-                            <div class="form-group">
-                            <label for="age">Price: </label>
-                            <input type="text" name="age" />
-                            </div>
-                            <div class="form-group">
-                            <label for="type">Category: </label>
-                            <select name="type">
-                                <option value="Clothes">Clothes</option>
-                                <option value="Weapons">Weapons</option>
-                                <option value="Food">Food</option>
-                                <option value="Item">Item</option>
-                            </select>
-                            </div>
-                            <div class="form-group">
-                            <label for="email">Image-URL: </label>
-                            <input type="text" name="email" />
-                            </div>
-                            <br>
-                            <input type="submit" value="Add Item" class="btn btn-primary">
-                        </form>
+                        <div id="create-form">
+							<form action="{{url('people')}}" method="post" enctype="multipart/form-data">
+								<input type="hidden" name="_token" value="{{ csrf_token() }}">
+								<div class="clearfix">
+									<label class="centerLabel" for="name">Name: </label>
+									<input class="centerInput" type="text" name="name" />
+								</div>
+								<div class="clearfix">
+									<label class="centerLabel" for="age">Price: </label>
+									<input class="centerInput" type="text" name="age" />
+								</div>
+								<div class="clearfix">
+									<label class="centerLabel" for="type">Category: </label>
+									<select class="centerInput" name="type">
+										<option value="Clothes">Clothes</option>
+										<option value="Weapons">Weapons</option>
+										<option value="Food">Food</option>
+										<option value="Item">Item</option>
+									</select>
+								</div>
+								<div class="clearfix">
+									<label class="centerLabel" for="email">Image-URL: </label>
+									<input class="centerInput" type="text" name="email" />
+								</div>
+								<div class="clearfix">
+									<input id="create-button" type="submit" value="Add Item">
+								</div>
+							</form>
+                        </div>
                     </div>
                 </div>
             </div>

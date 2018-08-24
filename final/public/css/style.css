@@ -122,3 +122,43 @@ form.example::after {
     margin-bottom: 4%;
     padding: 1%;
 }
+
+/* CREATE */
+#create-form {
+    width: 40%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+.clearfix {
+    overflow: auto;
+    margin-top: 2%;
+}
+
+.centerLabel {
+    float: left;
+}
+
+.centerInput {
+    float: right;
+}
+
+#create-button {
+    width: 35%;
+    height: 18%;
+    padding: 5px;
+    text-align: center;
+    background: rgb(179, 179,179);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    border-left: none;
+    cursor: pointer;
+}
+#create-button:hover {
+    background:rgb(255, 60, 60);
+    color: black;
+}
