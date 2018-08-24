@@ -1,0 +1,124 @@
+/* DEFAULT*/
+body { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-family: arial,verdana,sans-serif;
+    font-size:12px;
+    background-image: url("../images/MarioBackground.png");
+    background-position: right top;
+    background-color: white;
+}
+
+/* HEADER */
+#logo {
+    display: inline;
+}
+
+#nav {
+    background:rgb(255, 60, 60);
+    color: white;
+    padding:5px;
+    font-size:17px;
+ }
+
+ /* LINK */
+ a {
+    color: inherit; /* blue colors for links too */
+    margin: 1px;
+    padding: 5px;
+    text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+    color: black;
+}
+
+#nav input[type=text] {
+    float: right;
+    margin-top: 8px;
+    margin-right: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+form {
+    display: inline;
+}
+
+form.example button {
+    float: right;
+    width: 5%;
+    height: 4.4%;
+    margin: 7px 1px 0px 0px;
+    padding: 5px;
+    text-align: center;
+    background: rgb(179, 179,179);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: white;
+    color: black;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* BODY */
+.outer {
+    position: absolute;
+    height: 90%;
+    width: 100%;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid rgb(179, 179,179);
+    /*whatever width you want*/
+}
+
+.inner-text {
+    font-size: 15px;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background:rgb(255, 60, 60);
+    color: white;
+    text-align: center;
+}
+
+/* ABOUT */
+.about-facts {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+    padding: 1%;
+}
